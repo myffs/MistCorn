@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<title>Gmail Verification - MistCorn - Not a rip-off of discord</title>
+<link rel="icon" type="image/x-icon" href="icon.png">
+
+<html>
+<head>
+<style>
+body {
+  background-color: rgb(33, 96, 117);
+}
+</style>
+</head>
+<body>
+<html>
+<head>
+    <html>
+        <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        body {font-family: Arial, Helvetica, sans-serif;}
+        
+        .callout {
+          position: fixed;
+          bottom: 35px;
+          right: 20px;
+          margin-left: 20px;
+          max-width: 300px;
+        }
+        
+        .callout-header {
+          padding: 25px 15px;
+          background: #555;
+          font-size: 30px;
+          color: white;
+        }
+        
+        .callout-container {
+          padding: 15px;
+          background-color: #ccc;
+          color: black
+        }
+        
+        .closebtn {
+          position: absolute;
+          top: 5px;
+          right: 15px;
+          color: white;
+          font-size: 30px;
+          cursor: pointer;
+        }
+        
+        .closebtn:hover {
+          color: lightgrey;
+        }
+        </style>
+        </head>
+        <body>
+        
+        <div class="callout">
+          <div class="callout-header">Gmail</div>
+          <span class="closebtn" onclick="this.parentElement.style.display='none';">×</span>
+          <div class="callout-container">
+            <p>This GMAIL system is currently a work in progress.Come back later to find the gmail working.</p>
+          </div>
+        </div>
+        
+        </body>
+        </html>
+        
+        <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+#snackbar {
+  visibility: hidden;
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  bottom: 30px;
+  font-size: 17px;
+}
+
+#snackbar.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;} 
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {bottom: 30px; opacity: 1;} 
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+</style>
+</head>
+<body>
+
+<button onclick="myFunction()">Resend Verification</button>
+
+<div id="snackbar">Failed to send verification</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("snackbar");
+  x.className = "show";
+  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+}
+</script>
+
+</body>
+</html>
